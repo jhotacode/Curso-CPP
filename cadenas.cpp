@@ -13,24 +13,24 @@ int main()
     char nombre1[20];
     cout<<"Ingrese su nombre: ";
 
-    //hay varias maneras de ingresar las cadenas de texto, la primera es la mÃ¡s conocida: CIN
+    //hay varias maneras de ingresar las cadenas de texto, la primera es la más conocida: CIN
     /*
     cin>>nombre1;
     cout<<nombre1;
     */
 
-    //Sin embargo al encontrar un espacio CIN termina el ingreso de datos y lo que haya despuÃ©s lo ignora.
+    //Sin embargo al encontrar un espacio CIN termina el ingreso de datos y lo que haya después lo ignora.
     //Otra manera es mediante el gets:
     /*
     gets(nombre1);
     cout<<nombre1;
     */
-    //Sin embargo esta opciÃ³n toma mÃ¡s espacio del reservado. Lo que en un futuro podrÃ­a generar un grave error.
+    //Sin embargo esta opción toma más espacio del reservado. Lo que en un futuro podría generar un grave error.
 
-    //La Ãºltima opciÃ³n y tal vez la mÃ¡s vÃ¡lida es la siguiente:
+    //La última opción y tal vez la más válida es la siguiente:
 
     cin.getline(nombre1,20,'\n');
-    //Los parÃ¡metros son: nombre de la variable donde se va a guardar, la cantidad de carÃ¡cteres permitidos, la condiciÃ³n en la cual pararÃ¡.
+    //Los parámetros son: nombre de la variable donde se va a guardar, la cantidad de carácteres permitidos, la condición en la cual parará.
     cout<<nombre1;
 
 }
