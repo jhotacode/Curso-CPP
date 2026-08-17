@@ -18,3 +18,8 @@ int main()
 	system("pause");
 	return 0;
 }
+
+//Esto es un comentario en C++ que no afecta la ejecución del programa.
+/*
+Esto es un comentario de varias líneas en C++ que tampoco afecta la ejecución del programa.|
+*/
